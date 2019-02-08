@@ -1,0 +1,805 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body, header, nav, main {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fafafa;
+  font-family: "Roboto", sans-sarif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #fcfff5;
+}
+
+/* Title */
+header {
+  text-align: center;
+  height: 138px;
+  font-size: 28.5px;
+  letter-spacing: 5px;
+  padding-top: 10px;
+  color: #131313;
+  background: #fafafa;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+/* Navigation */
+nav {
+  background: #fafafa;
+  position: relative;
+  color: #131313;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: -50px;
+  padding: 5px 0;
+  transition: box-shadow 0.5s ease;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: #131313;
+  padding: 20px;
+}
+
+/* Home */
+  #slider {
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 80px 0px 20px 0px;
+  }
+
+/* About */
+.about-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background: #fafafa;
+  padding-top: 30px;
+}
+
+.left-side-bio {
+  width: 58%;
+  float: left;
+  margin: 60px 12px 15px 15px;
+  background: #fafafa;
+  color: #2b343a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.right-side-bio img {
+  padding-top: 65px;
+  width: 115%;
+}
+
+.left-side-bio p{
+  line-height: 1.50em;
+  font-size: 13.3px;
+  text-indent: 40px;
+}
+
+.right-side-bio {
+  width: 33%;
+  display: inline-block;
+  background: #fafafa;
+  margin-bottom: 20px;
+  margin-top: 85px;
+}
+
+.bio-paragraph {
+  max-height: 530px;
+  overflow: auto;
+}
+
+/* Teaching Philosophy */
+.tp-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background: #fafafa;
+  padding-top: 30px;
+}
+
+.left-side-tp {
+  width: 71.5%;
+  float: left;
+  margin: 60px 20px 15px 35px;
+  background: #fafafa;
+  color: #2b343a;
+  font-family: 'roboto', sans-serif;
+}
+
+.top-paragraph {
+  line-height: 1.85em;
+  max-height: 570px;
+  font-size: 13px;
+  overflow: auto;
+  text-indent: 30px;
+}
+
+.last-paragraph {
+  padding-top: 10px;
+  font-style: italic;
+  text-indent: 20px;
+  line-height: 1.85em;
+  font-size: 12.5px;
+}
+
+.right-side-tp {
+  width: 15%;
+  display: inline-block;
+  background: #fafafa;
+  margin-bottom: 20px;
+  margin-top: 85px;
+}
+
+/* Recordings */
+.rec {
+  padding-top: 80px;
+  text-align: center;
+  color: #2b343a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rec h3 {
+  font-style: italic;
+  font-size: 14px;
+  padding: 50px;
+}
+
+/* Student Resources */
+.links-div {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.links-div h1 {
+  color: #2b343a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.links-div a{
+  text-decoration: none;
+  color: #fafafa;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #3a3a3a;
+  background: #3a3a3a;
+  border-radius: 8px;
+  padding: 7px 8px;
+}
+
+/* Contact */
+.contact-div {
+  text-align: center;
+  background: #fafafa;
+  padding: 100px 0px 50px 0px;
+  width: 100%;
+  margin: auto;
+}
+
+.contact-div img{
+  border-radius: 100px;
+}
+.contact-div h2{
+  font-size: 32px;
+  color: #0077a5;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.contact-div p{
+  padding-bottom: 15px;
+  padding-top: 10px;
+  font-size: 19px;
+  color: #777;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-div a{
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 20px;
+  border-radius: 4px;
+  background: #078ec1;
+  padding: 10px 10px;
+}
+
+/* Credits */
+.rights {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0.05px;
+  color: black;
+  font-size: 9px;
+  margin-bottom: -12px;
+
+}
+
+.credits {
+  font-size: 7px;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+.rights p {
+  margin-bottom: 4px;
+  color: black;
+}
+
+.credits a {
+  font-size: 7.3px;
+  font-weight: 500;
+  color: black;
+  text-transform: capitalize;
+  margin-left: 4px;
+  text-decoration: none;
+  letter-spacing: -.001px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 959px) and (max-width: 1057px){
+  header {
+    height: 120px;
+  }
+nav {
+  height: 50px;
+}
+nav a {
+  padding: 21px 16px;
+  font-size: 14px;
+}
+}
+
+@media (min-width: 903px) and (max-width: 958px){
+  header {
+    height: 120px;
+  }
+nav {
+  height: 50px;
+}
+nav a {
+  padding: 20px 12px;
+  font-size: 14px;
+}
+}
+
+@media (min-width: 846px) and (max-width: 902px){
+  header {
+    height: 100px;
+    font-size: 24px;
+  }
+nav {
+  height: 50px;
+}
+nav a {
+  padding: 23px 14px 21px 14px;
+  font-size: 12px;
+}
+}
+
+@media (min-width: 800px) and (max-width: 845px){
+  header {
+    height: 100px;
+    font-size: 23px;
+  }
+nav {
+  height: 50px;
+}
+nav a {
+  padding: 23px 9px 21px 9px;
+  font-size: 12px;
+}
+}
+
+@media (min-width: 700px) and (max-width: 799px){
+  header {
+    height: 80px;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+nav {
+  height: 50px;
+}
+nav a {
+  padding: 26px 8px 21px 8px;
+  font-size: 10px;
+}
+}
+
+@media (min-width: 620px) and (max-width: 699px){
+  header {
+    height: 60px;
+    font-size: 17px;
+    padding-bottom: 5px;
+  }
+nav {
+  height: 50px;
+}
+nav a {
+  padding: 26px 4px 21px 4px;
+  font-size: 10px;
+}
+}
+
+@media (min-width: 535px) and (max-width: 619px){
+  header {
+    height: 50px;
+    font-size: 14px;
+  }
+nav {
+  height: 40px;
+}
+nav a {
+  padding: 27px 3px 22px 3px;
+  font-size: 9px;
+}
+}
+
+@media (min-width: 450px) and (max-width: 534px){
+  header {
+    height: 40px;
+    font-size: 11px;
+  }
+nav {
+  height: 50px;
+  padding: 1px 0;
+
+}
+nav a {
+  padding: 24px 2px 18px 2px;
+  font-size: 7.5px;
+}
+}
+
+@media (min-width: 395px) and (max-width: 449px){
+  header {
+    height: 28px;
+    font-size: 8px;
+    margin-bottom: 0px;
+  }
+nav {
+  height: 40px;
+  padding: 0px 0;
+}
+nav a {
+  padding: 26px 2px 18px 2px;
+  font-size: 6.2px;
+}
+}
+
+@media (min-width: 351px) and (max-width: 394px){
+  header {
+    height: 24px;
+    font-size: 7px;
+    padding-bottom: 5px;
+  }
+nav {
+  height: 35px;
+  line-height: 0px;
+}
+nav a {
+  padding: 23px 1px 21px 1px;
+  font-size: 5.5px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 350px){
+header {
+  height: 10px;
+  line-height: 10px;
+  font-size: 5.5px;
+  padding-bottom: 5px;
+}
+nav a {
+  padding: 10px 0px 14px 0px;
+  font-size: 4.7px;
+}
+nav {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: -95px;
+}
+}
+
+@media (min-width: 200px) and (max-width: 299px){
+header {
+  height: 10px;
+  line-height: 13px;
+  font-size: 4px;
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+}
+nav a {
+  padding: 10px 0px 14px 0px;
+  font-size: 4.2px;
+}
+nav {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: -95px;
+}
+}
+
+@media (min-width: 380px) and (max-width: 549px) {
+  .links-div a {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 379px) {
+  .links-div h1 {
+    font-size: 15px;
+  }
+  .links-div a {
+    font-size: 8px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1190px){
+
+  .left-side-bio p {
+    font-size: 12px;
+  }
+
+  .bio-paragraph{
+    max-height: 450px;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 949px){
+
+.about-container {
+  margin-top: -80px;
+}
+  .left-side-bio h2 {
+  font-size: 14px;
+}
+  .left-side-bio p {
+    max-height: 540px;
+    font-size: 10px;
+  }
+
+  .right-side-bio img {
+    padding-top: 70px;
+  }
+
+  .bio-paragraph{
+    max-height: 400px;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 749px){
+
+  .about-container {
+    margin-top: -80px;
+  }
+
+.left-side-bio {
+  margin-left: 10px;
+}
+  .left-side-bio h2 {
+  font-size: 12px;
+}
+  .left-side-bio p {
+    max-height: 500px;
+    font-size: 9px;
+  }
+
+  .right-side-bio img {
+    padding-top: 80px;
+  }
+
+  .bio-paragraph{
+    max-height: 400px;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 599px){
+
+  .about-container {
+    margin-top: -80px;
+  }
+
+.left-side-bio {
+  margin-left: 5px;
+}
+  .left-side-bio h2 {
+  font-size: 10px;
+}
+  .left-side-bio p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .right-side-bio img {
+    padding-top: 70px;
+  }
+
+  .bio-paragraph{
+    max-height: 320px;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 449px){
+
+  .about-container {
+    margin-top: -80px;
+  }
+
+.left-side-bio {
+  margin-left: 10px;
+  width: 55%;
+}
+  .left-side-bio h2 {
+  font-size: 8px;
+}
+  .left-side-bio p {
+    font-size: 5px;
+    line-height: 8px;
+  }
+
+  .right-side-bio img {
+    padding-top: 60px;
+  }
+
+  .bio-paragraph{
+    max-height: 250px;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 349px){
+
+  .about-container {
+    margin-top: -80px;
+  }
+
+.left-side-bio {
+  margin-left: 8px;
+  width: 54%;
+}
+  .left-side-bio h2 {
+  font-size: 8px;
+}
+  .left-side-bio p {
+    font-size: 5px;
+    line-height: 8px;
+  }
+
+  .right-side-bio img {
+    padding-top: 40px;
+  }
+
+  .bio-paragraph{
+    max-height: 180px;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1149px){
+  .tp-container {
+    margin-left: -13px;
+  }
+
+  .left-side-tp h2 {
+    font-size: 14.5px;
+    margin-bottom: 0px;
+  }
+
+  .left-side-tp p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  .tp-paragraphs {
+    max-height: 430px;
+    overflow: auto;
+  }
+
+  .right-side-tp img {
+    width: 170%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1099px){
+  .tp-container {
+    margin-left: -14px;
+  }
+
+  .left-side-tp h2 {
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+
+  .left-side-tp p {
+    font-size: 11px;
+    line-height: 19px;
+  }
+
+  .tp-paragraphs {
+    max-height: 350px;
+    overflow: auto;
+  }
+
+  .right-side-tp img {
+    width: 170%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 799px){
+  .tp-container {
+    margin-left: -15px;
+    margin-top: -70px;
+  }
+
+  .left-side-tp h2 {
+    font-size: 11px;
+    margin-bottom: 0px;
+  }
+
+  .left-side-tp p {
+    font-size: 8.5px;
+    line-height: 13px;
+  }
+
+  .tp-paragraphs {
+    max-height: 285px;
+    overflow: auto;
+  }
+
+  .right-side-tp img {
+    width: 170%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 679px){
+  .tp-container {
+    margin-left: -15px;
+    margin-top: -70px;
+  }
+
+  .left-side-tp h2 {
+    font-size: 9px;
+    margin-bottom: 0px;
+  }
+
+  .left-side-tp p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .tp-paragraphs {
+    max-height: 225px;
+    overflow: auto;
+  }
+
+  .left-side-tp {
+    width: 69%;
+  }
+  .right-side-tp img {
+    width: 150%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 559px){
+  .tp-container {
+    margin-left: -15px;
+    margin-top: -80px;
+  }
+
+  .left-side-tp h2 {
+    font-size: 7px;
+    margin-bottom: 0px;
+  }
+
+ .left-side-tp {
+   width: 64%;
+ }
+  .left-side-tp p {
+    font-size: 6.7px;
+    line-height: 9px;
+  }
+
+  .tp-paragraphs {
+    max-height: 235px;
+    overflow: auto;
+  }
+
+  .right-side-tp img {
+    width: 170%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 429px){
+  .tp-container {
+    margin-left: -15px;
+    margin-top: -80px;
+  }
+
+  .left-side-tp h2 {
+    font-size: 6px;
+    margin-bottom: 0px;
+  }
+
+ .left-side-tp {
+   width: 61%;
+ }
+
+  .left-side-tp p {
+    font-size: 5px;
+    line-height: 8px;
+  }
+
+  .tp-paragraphs {
+    max-height: 200px;
+    overflow: auto;
+  }
+
+  .right-side-tp img {
+    width: 180%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 379px){
+  .tp-container {
+    margin-left: -20px;
+    margin-top: -80px;
+  }
+
+  .left-side-tp h2 {
+    font-size: 5px;
+    margin-bottom: 0px;
+  }
+
+ .left-side-tp {
+   width: 60%;
+ }
+  .left-side-tp p {
+    font-size: 5px;
+    line-height: 8px;
+  }
+
+  .tp-paragraphs {
+    max-height: 170px;
+    overflow: auto;
+  }
+
+  .right-side-tp img {
+    width: 150%;
+    height: 150px;
+  }
+}
